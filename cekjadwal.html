@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog</title>
+    <title>Cek Jadwal Konseling</title>
     <link rel="stylesheet" href="assets/css/output.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
@@ -14,7 +14,7 @@
     <!-- Navbar -->
     <nav class="bg-primary-500 shadow-md sticky top-0 z-50">
       <div
-        class="flex flex-wrap py-2 w-11/12 md:container mx-auto lg:space-x-4 justify-between"
+        class="flex flex-wrap px-4 py-2 w-11/12 md:container mx-auto lg:space-x-4 justify-between"
       >
         <!-- brand -->
         <a
@@ -70,7 +70,7 @@
             <li>
               <a
                 href="cekjadwal.html"
-                class="flex px-4 py-2 font-medium text-white rounded-md hover:bg-primary-600"
+                class="flex px-4 py-2 font-medium text-white bg-primary-700 rounded-md hover:bg-primary-600"
                 >Cek Jadwal</a
               >
             </li>
@@ -84,7 +84,7 @@
             <li>
               <a
                 href="blog.html"
-                class="flex px-4 py-2 font-medium bg-primary-700 text-white rounded-md hover:bg-primary-600"
+                class="flex px-4 py-2 font-medium text-white rounded-md hover:bg-primary-600"
                 >Blog</a
               >
             </li>
@@ -144,142 +144,90 @@
 
     <!-- title -->
     <section id="services" class="">
-      <div class="bg-linear-to-bl from-primary-500 to-primary-800 py-20 pb-25">
+      <div class="bg-linear-to-bl from-primary-500 to-primary-800 py-20 pb-30">
         <div class="w-11/12 md:container mx-auto">
           <h3 class="text-5xl font-bold text-center mb-5 text-white">
-            Artikel & Tips Kesehatan Mental
+            Cek Jadwal Konseling
           </h3>
-          <p class="text-gray-500 text-center mb-5">
-            Jelajahi berbagai artikel informatif seputar kesehatan mental,
-            pengelolaan stres, pengembangan diri, serta tips menjaga
-            keseimbangan hidup. Temukan wawasan baru untuk mendukung
-            kesejahteraanmu!
+          <p class="text-gray-500 text-center mb-10">
+            Masukkan kode konseling untuk melihat jadwal sesi yang telah kamu
+            daftarkan. Pastikan kamu datang tepat waktu atau mengakses layanan
+            sesuai jadwal yang telah ditentukan.
           </p>
+          <form action="">
+            <div
+              class="relative flex items-center text-gray-400 focus-within:text-gray-600 w-full md:w-2/6 mx-auto"
+            >
+              <i
+                class="ri-search-line w-5 h-5 absolute ml-4 pointer-events-none"
+              ></i>
+              <input
+                type="text"
+                name="search"
+                placeholder="Masukkan kode konseling..."
+                autocomplete="off"
+                aria-label="Masukkan kode konseling..."
+                class="w-full pr-3 pl-10 py-3 font-semibold placeholder-gray-500 text-black rounded-2xl border-none ring-2 ring-gray-300 focus:ring-gray-500 focus:ring-2 bg-white"
+              />
+            </div>
+          </form>
         </div>
       </div>
-      <div class="card bg-gray-100 w-full py-10 -mt-10 rounded-t-3xl">
+      <div class="card bg-gray-200 w-full py-10">
         <div
-          class="w-11/12 md:container md:w-6xl mx-auto flex flex-col gap-y-4"
+          class="w-11/12 md:container md:w-6xl mx-auto flex flex-col md:flex-row gap-y-4 md:gap-x-4 -mt-25"
         >
-          <!-- service 1-->
-          <div class="shadow-xl rounded-md flex flex-col md:flex-row">
-            <a href="">
-              <img
-                src="https://placehold.co/300x300"
-                class="w-full rounded-t-md"
-              />
-              <div class="py-5 px-5 flex-col">
-                <h4 class="font-bold text-2xl mb-5">
-                  Mengatasi Overthinking dan Kecemasan Berlebih
-                </h4>
-                <p class="text-gray-500 mb-2 text-justify">
-                  Pikiran yang terus-menerus mengkhawatirkan sesuatu bisa
-                  menguras energi. Pelajari teknik relaksasi dan strategi
-                  mengatasi overthinking agar lebih tenang...
-                </p>
-                <a href="" class="hover:text-gray-500 text-justify align-bottom"
-                  >Baca Selengkapnya</a
-                >
-              </div>
-            </a>
-          </div>
-          <!-- service 2 -->
-          <div class="shadow-xl rounded-md flex flex-col md:flex-row">
-            <a href="">
-              <img
-                src="https://placehold.co/300x300"
-                class="w-full rounded-t-md"
-              />
-              <div class="py-5 px-5 flex-col">
-                <h4 class="font-bold text-2xl mb-5">
-                  Mengatasi Overthinking dan Kecemasan Berlebih
-                </h4>
-                <p class="text-gray-500 mb-2 text-justify">
-                  Pikiran yang terus-menerus mengkhawatirkan sesuatu bisa
-                  menguras energi. Pelajari teknik relaksasi dan strategi
-                  mengatasi overthinking agar lebih tenang...
-                </p>
-                <a href="" class="hover:text-gray-500 text-justify align-bottom"
-                  >Baca Selengkapnya</a
-                >
-              </div>
-            </a>
-          </div>
-          <!-- service 3-->
-          <div class="shadow-xl rounded-md flex flex-col md:flex-row">
-            <a href="">
-              <img
-                src="https://placehold.co/300x300"
-                class="w-full rounded-t-md"
-              />
-              <div class="py-5 px-5 flex-col">
-                <h4 class="font-bold text-2xl mb-5">
-                  Mengatasi Overthinking dan Kecemasan Berlebih
-                </h4>
-                <p class="text-gray-500 mb-2 text-justify">
-                  Pikiran yang terus-menerus mengkhawatirkan sesuatu bisa
-                  menguras energi. Pelajari teknik relaksasi dan strategi
-                  mengatasi overthinking agar lebih tenang...
-                </p>
-                <a href="" class="hover:text-gray-500 text-justify align-bottom"
-                  >Baca Selengkapnya</a
-                >
-              </div>
-            </a>
-          </div>
-          <!-- service 4-->
-          <div class="shadow-xl rounded-md flex flex-col md:flex-row">
-            <a href="">
-              <img
-                src="https://placehold.co/300x300"
-                class="w-full rounded-t-md"
-              />
-              <div class="py-5 px-5 flex-col">
-                <h4 class="font-bold text-2xl mb-5">
-                  Mengatasi Overthinking dan Kecemasan Berlebih
-                </h4>
-                <p class="text-gray-500 mb-2 text-justify">
-                  Pikiran yang terus-menerus mengkhawatirkan sesuatu bisa
-                  menguras energi. Pelajari teknik relaksasi dan strategi
-                  mengatasi overthinking agar lebih tenang...
-                </p>
-                <a href="" class="hover:text-gray-500 text-justify align-bottom"
-                  >Baca Selengkapnya</a
-                >
-              </div>
-            </a>
-          </div>
-
-          <!-- pagination -->
-          <ul
-            class="flex flex-row flex-wrap gap-x-6 py-4 px-8 bg-white rounded-xl items-start w-fit mx-auto text-xl shadow-lg"
+          <div
+            class="card-informasi p-4 flex flex-col gap-y-4 rounded-md bg-white backdrop-blur-md w-full md:w-3/4 shadow-lg"
           >
-            <li>
-              <a href="" class="hover:text-gray-500"
-                ><i class="ri-arrow-left-s-line"></i
-              ></a>
-            </li>
-            <li>
-              <a href="" class="hover:text-gray-500 font-semibold">1</a>
-            </li>
-            <li>
-              <a href="" class="hover:text-gray-500">2</a>
-            </li>
-            <li>
-              <a href="" class="hover:text-gray-500">3</a>
-            </li>
-            <li>
-              <a href="" class="hover:text-gray-500">...</a>
-            </li>
-            <li>
-              <a href="" class="hover:text-gray-500">12</a>
-            </li>
-            <li>
-              <a href="" class="hover:text-gray-500"
-                ><i class="ri-arrow-right-s-line"></i
-              ></a>
-            </li>
-          </ul>
+            <h3 class="text-center font-bold text-xl">Informasi Konseling</h3>
+            <div class="nama">
+              <h4 class="font-semibold text-md">Nama Mahasiswa</h4>
+              <p class="text-xl">John Doe</p>
+            </div>
+            <div class="jenis">
+              <h4 class="font-semibold text-md">Jenis Konseling</h4>
+              <p class="text-xl">Konseling Akademik</p>
+            </div>
+            <div class="metode">
+              <h4 class="font-semibold text-md">Metode</h4>
+              <p class="text-xl">Offline</p>
+            </div>
+            <div class="konselor">
+              <h4 class="font-semibold text-md">Nama Konselor</h4>
+              <p class="text-xl">Jane Doe</p>
+            </div>
+            <div class="jadwal">
+              <h4 class="font-semibold text-md">Jadwal</h4>
+              <p class="text-xl">10 Maret 2025 | 09.00 WIB</p>
+            </div>
+            <div class="lokasi">
+              <h4 class="font-semibold text-md">Tempat</h4>
+              <p class="text-xl">Ruang Konseling FT UNM</p>
+            </div>
+          </div>
+          <div
+            class="card-informasi p-4 flex flex-col gap-y-4 rounded-md bg-white backdrop-blur-md w-full md:w-1/4 shadow-lg h-fit"
+          >
+            <h3 class="text-center font-bold text-xl">
+              Bagikan Feedback & Pilih Langkahmu
+            </h3>
+            <a
+              href=""
+              class="box-border py-2 px-4 hover:bg-black text-white text-lg font-semibold bg-gray-950 text-center rounded-xl shadow-lg"
+              >Isi Feedback</a
+            >
+            <a
+              href=""
+              class="box-border py-2 px-4 bg-secondary-400 font-semibold text-lg text-center rounded-xl hover:bg-secondary-300 shadow-lg"
+              >Lanjut Sesi</a
+            >
+            <a
+              href=""
+              class="box-border py-2 px-4 hover:bg-primary-600 text-white font-semibold text-lg bg-primary-500 text-center rounded-xl shadow-lg"
+              >Selesai</a
+            >
+          </div>
         </div>
       </div>
     </section>
@@ -290,7 +238,9 @@
       class="bg-linear-to-bl from-primary-500 to-primary-800 py-20 border-t-5 border-secondary-400"
     >
       <div class="w-11/12 md:container mx-auto">
-        <div class="flex flex-col gap-y-4 md:flex-row md:gap-y-0 md:gap-x-6">
+        <div
+          class="flex flex-col box-border gap-y-4 md:flex-row md:gap-y-0 md:gap-x-6"
+        >
           <!-- part 1 -->
           <div class="md:w-4/12 w-full">
             <h3 class="text-xl text-white font-semibold mb-5">
@@ -320,17 +270,17 @@
             <table class="text-gray-200 text-justify">
               <tr class="py-4">
                 <td>Whatsapp</td>
-                <td class="pl-8">:</td>
+                <td class="pl-4">:</td>
                 <td class="pl-4">+62 895 8001 44346</td>
               </tr>
               <tr class="py-4">
                 <td>Email</td>
-                <td class="pl-8">:</td>
-                <td class="pl-4">fikrianggara72@gmail.com</td>
+                <td class="pl-4">:</td>
+                <td class="pl-4 flex flex-wrap">fikrianggara72@gmail.com</td>
               </tr>
               <tr class="py-4">
                 <td>Alamat</td>
-                <td class="pl-8">:</td>
+                <td class="pl-4">:</td>
                 <td class="pl-4">Jalan Andi Tonro No. 7G</td>
               </tr>
             </table>
